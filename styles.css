@@ -28,6 +28,9 @@ body {
 .navbar {
     background-color: #ffcc5c;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar ul {
@@ -56,6 +59,12 @@ body {
     background-color: #d15b00;
 }
 
+/* Navbar logo styles */
+.navbar-logo {
+    width: 50px;
+    height: auto;
+}
+
 /* Section styles */
 .section {
     margin: 20px;
@@ -67,6 +76,15 @@ body {
 
 .section h2 {
     color: #f7882f;
+}
+
+/* About section image */
+.about-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 /* Footer styles */
